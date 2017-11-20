@@ -21,3 +21,13 @@ if len(seq) == 0:
 for i in str(int_):
     seq.append(i) #['1', '2', '4']
     seq2.append(int(i))#[1, 2, 4]
+
+
+#字典 key 是唯一的
+
+#set()能消除重复元素，集合类型
+
+nums[:] = nums[n-k:] + nums[:n-k] 
+nums = nums[n-k:] + nums[:n-k]
+# The previous one can truly change the value of old nums, 
+# but the following one just changes its reference to a new nums not the value of old nums.
