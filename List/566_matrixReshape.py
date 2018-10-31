@@ -17,7 +17,7 @@ class Solution(object):
                 nums_.append(nums[i][j])
         for i in range(r):
             nums[i] = nums_[i*c : (i+1)*c]
-        return num[:r]
+        return nums[:r]
 
 if __name__ == '__main__':
     s = Solution()

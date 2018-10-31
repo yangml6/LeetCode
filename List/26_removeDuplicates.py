@@ -16,7 +16,7 @@ class Solution(object):
         if not nums :
             return 0
         
-        newTail = 0;
+        newTail = 0
         
         for i in range(1, len(nums)):
             if nums[i] != nums[newTail]:
