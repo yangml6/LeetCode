@@ -5,14 +5,13 @@ class Solution:
         :type s: str
         :rtype: int
         """
-        snew = s.strip(' ')
-        sne = re.split(r" +", snew).remove('')
-        print(sne)
-        count = len(sne)
-        return count 
+        # way 1
+        return sum(s[i] != ' ' and (i == 0 or s[i-1] == ' ') for i in range(len(s)))
+        # way 2
+        # return len(s.split(' '))
     
 
 sol = Solution()
-s = "    "
+s = "h h "
 ans = sol.countSegments(s)
 print(ans)
