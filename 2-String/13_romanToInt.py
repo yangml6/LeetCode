@@ -15,7 +15,7 @@ class Solution:
         return allSum
 
 sol = Solution()
-s = 'IV'
+s = 'IVV'
 ans = sol.romanToInt(s)
 print(ans)
 

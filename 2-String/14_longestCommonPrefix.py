@@ -26,10 +26,11 @@ class Solution:
         return same_pre
 
             
-        # if not m: return ''
+        # if not strs: return ''
 		# 		#since list of string will be sorted and retrieved min max by alphebetic order
-        # s1 = min(m)
-        # s2 = max(m)
+        # s1 = min(strs)
+        # s2 = max(strs)
+        # print(s1, s2)
 
         # for i, c in enumerate(s1):
         #     if c != s2[i]:
@@ -41,7 +42,7 @@ class Solution:
 
         
 sol = Solution()
-# strs = ["flower","flow","flight"]
-strs = ['aa', 'a']
+strs = ["flower","flow","flight","aa"]
+# strs = ['aa', 'a']
 ans = sol.longestCommonPrefix(strs)
 print(ans)
